@@ -4,7 +4,8 @@ function bubbleSort(array) {
       while (!isSorted) {
           // tentatevely assign isSorted to true
           isSorted = true;
-          
+          // we know for a fact that the last number in the array at the end of passthrough 
+          // would make the last number the highest, hence we put - counter in the for loop
           for (let i = 0; i < array.length - 1 - counter; i++) {
               if (array[i] > array[i + 1]) {
                   swap(i, i+1, array);
