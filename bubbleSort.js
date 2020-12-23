@@ -17,7 +17,7 @@ function bubbleSort(array) {
       return array;
   }
   
-  // swap function is not necessary to implement, it only makes the code cleaner
+// swap function is not necessary to implement, it only makes the code cleaner
 function swap(i, j, array) {
     let temp = array[i];
     array[i] = array[j];
